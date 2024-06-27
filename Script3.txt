@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vital-Hub11/WolfHubb/main/wolfwolf.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ichessfleischv2/Milk-Up/main/cracked.txt'))()
