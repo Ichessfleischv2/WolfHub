@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("WolfHub l PS99 ", "BloodTheme")
-local Tab = Window:NewTab("Dupe section")
-local Section = Tab:NewSection("Dupe section")
+local Tab = Window:NewTab("Pet Dupe")
+local Section = Tab:NewSection("Dupe Now")
 Section:NewButton("Dupe Pet", "Dupe Pet", function()
     local lib = require(game.ReplicatedStorage.Library)
  
@@ -22,7 +22,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Pets_Favorite"):FireServer(unpack(args))
 
 local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("Dupe Done")
+    message.Error("Dupe Successfully")
    end)
 
 local Tab = Window:NewTab("Egg Hunter")
@@ -30,7 +30,7 @@ local Section = Tab:NewSection("Egg Hunter")
 Section:NewButton("Hunt Now", "Hunt Now", function()
     print("Clicked")
 local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("Hunting In Progress")
+    message.Error("Hunt Successfully")
    local lib = require(game.ReplicatedStorage.Library)
 local fromPet = "Good vs Evil Dragon"
 local toPet = "Huge Good vs Evil Dragon"
@@ -47,7 +47,7 @@ local Tab = Window:NewTab("Exclusive Egg")
 local Section = Tab:NewSection("Exclusive Egg")
 Section:NewButton("Hunt Now", "Hunt Now", function()
     local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("Hunting In Progress")
+    message.Error("Hunt Successfully")
 local lib = require(game.ReplicatedStorage.Library)
 
    local fromPet = "Blazing Corgi"
@@ -77,7 +77,35 @@ end
 for i,v in pairs(lib.Directory.Pets[toPet]) do
   lib.Directory.Pets[fromPet][i] = v
 end
+local fromPet = "Flex Fluffy Cat"
+local toPet = "Titanic Flex Cat"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
+local fromPet = "Flex Bear"
+local toPet = "Titanic Flex Cat"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
+local fromPet = "Flex Tiger"
+local toPet = "Titanic Flex Cat"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
 end)
+
 local Tab = Window:NewTab("Trade Scam")
 local Section = Tab:NewSection("Freeze Trade")
 Section:NewButton("Trade Scam on", "ButtonInfo", function()
