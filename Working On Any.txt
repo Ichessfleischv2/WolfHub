@@ -1,0 +1,4 @@
+Working On Any Executor
+Autofarm Script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/D
+evwSaii/Dash-Hub/refs/heads/main/TRADE%20FREEZER"))()
